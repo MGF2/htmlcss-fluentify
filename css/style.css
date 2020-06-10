@@ -19,31 +19,112 @@
 }
 
 .container-blu {
-  background-color: blue;
+  background-color: #0c325a;
   height: 400px;
+  background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+ul li {
+  display: inline-block;
+  color: white;
+  line-height: 70px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-family: monserrat,sans-serif;
+}
+
+li:last-of-type {
+  margin-left: 100px;
+}
+
+button:first-of-type {
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: #0c325a;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0 10px;
+  /* margin-left: 10px; */
+}
+
+ #principale {
+  border-radius: 5px;
+  background-color: #7cbb02;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 20px 15px;
+  /* position: absolute; */
+  margin: 10px auto;
+  font-family: monserrat,sans-serif;
+}
+
+button:last-of-type {
+   border-radius: 5px;
+   border: 1px solid #7cbb02;
+   background-color: #7cbb02;
+   color: white;
+   font-size: 10px;
+   text-transform: uppercase;
+   padding: 10px;
+   margin-left: 10px;
+   /* float: right;
+   top: 50%;
+   transform: translate(-0, 50%); */
+ }
+
+.logo {
+  float: left;
+  color: white;
+  line-height: 40px;
+  padding-top: 5px;
+  margin: 5px 50px 5px 0;
+  /* margin: 5px auto; */
+
+}
+
+header {
+  /* background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+  background-size: contain;
+  background-position:bottom left;
+  background-repeat: no-repeat; */
+  width: 70%;
+  margin: 0 auto;
 }
 /* .b {
   background-color: white;
 } */
 
 nav {
-  height: 70px;
-  background-color: brown;
+  /* height: 70px; */
+  /* border: 1px solid white; */
+  position: relative;
+  /* background-color: brown; */
 }
 
  .banner {
    height: 330px;
-   background-color: pink;
+   /* background-color: pink; */
    width: 50%;
+   position: relative;
  }
 
  .testobanner {
-   line-height: 330px;
-
+   position: absolute;
+   top:50%;
+   transform: translate(0, -50%);
  }
 
 h1 {
   color: white;
+  font-family: monserrat,sans-serif;
+  font-size: 37px;
 }
 
 .container-grigio  {
@@ -56,7 +137,7 @@ h1 {
   height: 400px;
 }
 
-.col {
+.box {
   border: 1px solid red;
   height: 300px;
   width: 33.3333%;
