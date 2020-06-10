@@ -13,7 +13,7 @@
 .container {
   width: 70%;
   height: 1000px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   margin: 0 auto;
   border: 1px solid black;
 }
@@ -128,10 +128,27 @@ h1 {
 }
 
 .container-grigio  {
-  background-color: grey;
+  background-color: #d3d3d3;
   height: 100px;
+  position: relative;
 }
 
+.tagline {
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: monserrat,sans-serif;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+p {
+  color: #808080;
+}
 .container-bianco {
   background-color: white;
   height: 400px;
@@ -142,4 +159,9 @@ h1 {
   height: 300px;
   width: 33.3333%;
   float: left;
+  text-align: center;
+}
+
+.box img {
+  width: 50%;
 }
