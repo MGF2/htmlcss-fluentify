@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 70%;
+  height: 1000px;
+  background-color: lightblue;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.container-blu {
+  background-color: blue;
+  height: 400px;
+}
+/* .b {
+  background-color: white;
+} */
+
+nav {
+  height: 70px;
+  background-color: brown;
+}
+
+ .banner {
+   height: 330px;
+   background-color: pink;
+   width: 50%;
+ }
+
+ .testobanner {
+   line-height: 330px;
+
+ }
+
+h1 {
+  color: white;
+}
+
+.container-grigio  {
+  background-color: grey;
+  height: 100px;
+}
+
+.container-bianco {
+  background-color: white;
+  height: 400px;
+}
+
+.col {
+  border: 1px solid red;
+  height: 300px;
+  width: 33.3333%;
+  float: left;
+}
